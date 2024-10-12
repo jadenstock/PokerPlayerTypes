@@ -1,0 +1,62 @@
+Cluster 4
+Number of Players: 46
+Average Stats:
+Hands: 1313.96 (Diff from Overall: 61.27)
+PFR/VPIP: 28.53 (Diff from Overall: -28.17)
+VPIP: 33.56 (Diff from Overall: -0.56)
+PFR: 9.52 (Diff from Overall: -9.06)
+Limp: 21.04 (Diff from Overall: 13.27)
+CC 2Bet PF: 26.9 (Diff from Overall: 7.43)
+Total AFq: 38.44 (Diff from Overall: -7.39)
+3Bet PF: 4.97 (Diff from Overall: -5.51)
+4Bet PF: 4.09 (Diff from Overall: -2.37)
+2Bet PF & Fold: 20.88 (Diff from Overall: -7.46)
+Avg PF All-In Equity: 46.09 (Diff from Overall: 0.98)
+CBet F: 67.27 (Diff from Overall: 3.47)
+Fold to F CBet: 49.25 (Diff from Overall: 5.92)
+XR Flop: 4.45 (Diff from Overall: -3.27)
+Fold to Steal: 56.9 (Diff from Overall: 6.35)
+Att To Steal: 19.53 (Diff from Overall: -20.1)
+Call R Eff: 1.5 (Diff from Overall: 0.04)
+WWSF: 37.19 (Diff from Overall: -5.31)
+BB Won: -0.94 (Diff from Overall: -55.0)
+BB Won/100: 2.96 (Diff from Overall: 3.45)
+
+
+Based on the provided average stats for the cluster of players, here’s the analysis:
+
+1. Skill Level Rating
+Rating: 4/10
+
+The skill level of players in this cluster appears to be below average. They exhibit passive tendencies, particularly in their PFR and aggression frequency, indicating less aggressive play and a preference for limping. Their relatively low PFR compared to their VPIP suggests they are playing many hands but not aggressively raising them.
+
+2. Overview of Play-Style
+The play-style of this cluster can be characterized as passive and loose:
+
+High Limp Percentage (21.04%): This indicates a tendency to enter pots without raising, which suggests a reluctance to commit chips early in the hand. This passive approach can lead to situations where they miss opportunities to apply pressure.
+
+Low PFR (9.52%): This shows that even though they play a relatively high number of hands, they do not aggressively raise many of them. This could indicate that they might be playing too many marginal hands or are not confident in their hand ranges.
+
+Total Aggression Frequency (38.44%): The low aggression frequency indicates they do not frequently take aggressive actions post-flop. Combined with a high CBet frequency (67.27%), it appears they may be willing to bet but not following through with aggression consistently.
+
+Average WWSF (37.19%): The percentage of pots won after seeing the flop is lower than average, which may reflect difficulties in capitalizing on flops, possibly due to their passive nature.
+
+High Call Check 2Bet Pre-Flop (CC 2Bet PF) (26.9%): This indicates they are comfortable calling raises after having limped in, suggesting a tendency to wait for strong hands before committing further.
+
+3. Exploitation Strategy
+To exploit players in this cluster, consider the following approaches:
+
+Raise More Against Limpers: Given their high limp percentage, aggressively raising when they limp in can put pressure on them. They may fold many hands they would have played if they had raised themselves.
+
+Steal Blinds: With a Fold to Steal rate of 56.9%, these players are likely to fold their blinds to aggressive steals. Attempting to steal more frequently, especially from the button, can yield good results.
+
+Pressure Post-Flop: Since their Fold to F CBet is relatively high (49.25%), they may give up easily on hands when faced with a continuation bet. Applying pressure after the flop with aggressive betting can capitalize on this tendency.
+
+Avoid Being Trapped: They have a low check-raise percentage (4.45%), suggesting that they do not often trap opponents. This allows for a more aggressive approach without fearing strong hands behind.
+
+Target Their Weakness: Players in this cluster are unlikely to put in 3-bets (4.97%). Exploit this by raising more frequently and making larger bets when you have a strong hand, as they may be less likely to respond with aggression.
+
+4. Sea Creature Representation
+Sea Creature: Sea Cucumber
+
+The sea cucumber represents this cluster due to its passive nature and tendency to remain inactive while blending into its environment. Like these players, sea cucumbers often play a passive role, relying on their environment rather than aggressively engaging. They may seem to participate but do so in a low-impact manner, making them susceptible to being overwhelmed when pressure is applied.

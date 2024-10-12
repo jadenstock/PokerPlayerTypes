@@ -1,0 +1,81 @@
+I have some poker stats I'd like help analyzing.
+I have gathered some stats on a cluster of players.
+I have then organized the players into various clusters.
+I am going to give you the average stats of players within a given cluster.
+I will also include how far off each stat is from the population average.
+I'd like you to do three things.
+1) rate the skill level of players in this cluster out of 10.
+2) Give me an overview of this clusters play-style.
+3) Give me detailed notes on the best way to exploit players in this cluster.
+4) Give me a sea-creature that represents this cluster of players.
+
+Definitions of the stats:
+
+PFR/VPIP:
+Definition: The ratio of Pre-Flop Raise (PFR) to Voluntarily Put Money in Pot (VPIP).
+Importance: Indicates a player's aggression and willingness to enter the pot. A higher ratio suggests a more aggressive player.
+
+VPIP (Voluntarily Put Money in Pot):
+Definition: The percentage of hands a player plays voluntarily (including calls, raises, and limps).
+Importance: Reflects how loose or tight a player is. A high VPIP indicates a loose player who plays many hands, while a low VPIP indicates a tighter player.
+
+PFR (Pre-Flop Raise):
+Definition: The percentage of hands a player raises pre-flop.
+Importance: Shows aggression and indicates a player’s strategy. A high PFR usually means the player is aggressive and selective about their hand range.
+
+Limp:
+Definition: The percentage of hands in which a player enters the pot by calling the big blind instead of raising.
+Importance: High limping can indicate a passive playstyle and can be exploited by raising more often against limpers.
+
+CC 2Bet PF (Call Check 2Bet Pre-Flop):
+Definition: The percentage of times a player calls a raise after having limped in.
+Importance: Indicates how often a player is willing to see a flop after a raise, showing their comfort with various hands.
+
+Total AFq (Aggression Frequency):
+Definition: A measure of how often a player takes aggressive actions (betting or raising) compared to passive actions (checking or calling).
+Importance: A higher AFq indicates a more aggressive player, which can affect how you approach them in hands.
+
+3Bet PF (3-Bet Pre-Flop):
+Definition: The percentage of times a player re-raises after an initial raise before the flop.
+Importance: A high 3Bet percentage suggests a player is aggressive and willing to challenge opponents pre-flop.
+
+4Bet PF (4-Bet Pre-Flop):
+Definition: The percentage of times a player re-raises after a 3Bet.
+Importance: Indicates how often a player is willing to push their advantage, often associated with strong hands or a highly aggressive style.
+
+2Bet PF & Fold:
+Definition: The percentage of times a player raises pre-flop and then folds to a re-raise.
+Importance: A high percentage indicates that the player may be aggressive but not committed to their hand, making them vulnerable to pressure.
+
+Avg PF All-In Equity:
+Definition: The average percentage of equity a player has when going all-in pre-flop.
+Importance: Indicates how often players find themselves in favorable situations when committing their stacks, reflecting their hand selection.
+
+CBet F (Continuation Bet Frequency):
+Definition: The percentage of times a player bets after being the pre-flop aggressor.
+Importance: A high CBet frequency suggests a player is willing to continue their aggression, which can indicate a strong or well-represented hand.
+
+Fold to F CBet:
+Definition: The percentage of times a player folds to a continuation bet after having checked or called.
+Importance: A high percentage indicates that the player is likely to give up on hands when faced with continued aggression, which can be exploited.
+
+XR Flop (Check-Raise Flop):
+Definition: The percentage of times a player check-raises on the flop.
+Importance: A higher percentage indicates a tendency to trap opponents, which can signal a strong hand and should be respected in play.
+
+Fold to Steal:
+Definition: The percentage of times a player folds to a steal attempt from the button or cut-off.
+Importance: A low percentage indicates that the player is more likely to defend their blinds, which can inform your strategy when stealing.
+
+Att To Steal (Attempt to Steal):
+Definition: The percentage of times a player attempts to steal the blinds.
+Importance: A high attempt-to-steal percentage indicates an aggressive strategy, which could lead to more opportunities for opponents to defend.
+
+Call R Eff (River Call Efficiency):
+Definition: How many dollars you win on average per dollar called on the river.
+Importance: Anything less than 1 means you're calling too much. Anything too high indicates that you're not calling enough.
+
+WWSF (Won When Saw Flop):
+Definition: The percentage of pots a player wins after seeing the flop.
+
+Average Stats for the cluster:

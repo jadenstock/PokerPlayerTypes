@@ -1,0 +1,52 @@
+Cluster 2
+Number of Players: 38
+Average Stats:
+Hands: 716.66 (Diff from Overall: -536.03)
+PFR/VPIP: 28.56 (Diff from Overall: -28.14)
+VPIP: 52.33 (Diff from Overall: 18.21)
+PFR: 15.1 (Diff from Overall: -3.48)
+Limp: 36.14 (Diff from Overall: 28.37)
+CC 2Bet PF: 40.59 (Diff from Overall: 21.12)
+Total AFq: 43.18 (Diff from Overall: -2.65)
+3Bet PF: 7.8 (Diff from Overall: -2.68)
+4Bet PF: 4.25 (Diff from Overall: -2.21)
+2Bet PF & Fold: 23.69 (Diff from Overall: -4.65)
+Avg PF All-In Equity: 43.04 (Diff from Overall: -2.07)
+CBet F: 56.21 (Diff from Overall: -7.59)
+Fold to F CBet: 44.75 (Diff from Overall: 1.42)
+XR Flop: 4.84 (Diff from Overall: -2.88)
+Fold to Steal: 37.21 (Diff from Overall: -13.34)
+Att To Steal: 26.91 (Diff from Overall: -12.72)
+Call R Eff: 1.18 (Diff from Overall: -0.28)
+WWSF: 40.73 (Diff from Overall: -1.77)
+BB Won: -167.92 (Diff from Overall: -221.98)
+BB Won/100: -17.18 (Diff from Overall: -16.69)
+
+
+Here’s an analysis of the player cluster based on the provided stats:
+
+1. Skill Level Rating
+Skill Level: 3/10
+This cluster of players exhibits several weaknesses that suggest a lower skill level. They have a high VPIP (52.33), indicating they play a large percentage of hands, but their PFR (15.1) is relatively low compared to their VPIP, leading to a very low PFR/VPIP ratio (28.56). This suggests they enter pots frequently but do not apply sufficient aggression, which often leads to passive play.
+
+2. Overview of Play Style
+Limping and Passive Play: With a Limp percentage of 36.14, this cluster tends to enter pots by calling rather than raising, indicating a very passive approach. This behavior can make them vulnerable to aggressive strategies.
+Loose Aggressive Nature: The high VPIP indicates they are loose players who play many hands, but their low PFR suggests they are not raising as frequently as they should. This can create situations where they enter pots with weaker hands.
+High Call Rate on Raises: The CC 2Bet PF of 40.59 suggests they are willing to see flops after limping, reflecting comfort with various hands but also a tendency to call rather than act aggressively.
+Relatively Low Aggression Frequency: The Total AFq of 43.18 is relatively low, indicating that they may not apply enough pressure to opponents, which can lead to predictable play.
+3. Exploitation Strategy
+To exploit this cluster effectively, consider the following strategies:
+
+Raise More Frequently Against Limpers: Given their high Limp percentage, you can raise frequently when they enter a pot. This will force them to commit with weaker hands or fold, capitalizing on their passive tendencies.
+
+Avoid Calling Raises: With a high CC 2Bet PF (40.59), players in this cluster are likely to call raises but may not be committed to strong hands. You can bluff or pressure them post-flop, especially if the board is unfavorable for their calling range.
+
+Steal Blinds Aggressively: The Fold to Steal percentage of 37.21 indicates that they may be defending their blinds, but this is still a relatively low percentage. Attempt to steal blinds more often, especially if you observe them playing passively.
+
+Capitalize on Weak Continuation Bets: With a CBet F of 56.21, they continue aggression after the flop, but their Fold to F CBet of 44.75 suggests they may fold often when faced with continued pressure. This can be exploited by betting aggressively on the flop and turn.
+
+Observe their Response to Aggression: Given their low 3Bet (7.8) and 4Bet (4.25) percentages, players are likely to fold to pressure. Thus, applying aggression can make them fold even when they have marginal hands.
+
+4. Sea-Creature Representation
+Sea Creature: Starfish
+The starfish represents this cluster well as it is a passive and adaptable creature. Just as starfish often remain in one spot and can regenerate limbs, these players tend to stick around in pots without much aggression, often waiting for opportunities to ‘come back’ rather than pushing themselves into winning positions. They can be resilient but often lack the aggressive traits needed to succeed against more skilled opponents.

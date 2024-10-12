@@ -1,0 +1,58 @@
+Cluster 5
+Number of Players: 112
+Average Stats:
+Hands: 1194.81 (Diff from Overall: -57.88)
+PFR/VPIP: 51.94 (Diff from Overall: -4.76)
+VPIP: 35.68 (Diff from Overall: 1.56)
+PFR: 18.33 (Diff from Overall: -0.25)
+Limp: 6.59 (Diff from Overall: -1.18)
+CC 2Bet PF: 23.62 (Diff from Overall: 4.15)
+Total AFq: 40.8 (Diff from Overall: -5.03)
+3Bet PF: 9.08 (Diff from Overall: -1.4)
+4Bet PF: 5.43 (Diff from Overall: -1.03)
+2Bet PF & Fold: 21.56 (Diff from Overall: -6.78)
+Avg PF All-In Equity: 46.2 (Diff from Overall: 1.09)
+CBet F: 59.89 (Diff from Overall: -3.91)
+Fold to F CBet: 43.85 (Diff from Overall: 0.52)
+XR Flop: 5.54 (Diff from Overall: -2.18)
+Fold to Steal: 45.55 (Diff from Overall: -5.0)
+Att To Steal: 40.23 (Diff from Overall: 0.6)
+Call R Eff: 1.41 (Diff from Overall: -0.05)
+WWSF: 39.31 (Diff from Overall: -3.19)
+BB Won: 52.61 (Diff from Overall: -1.45)
+BB Won/100: 0.3 (Diff from Overall: 0.79)
+
+1) Skill Level Rating: 6/10
+The players in this cluster display a moderate skill level. While their VPIP is reasonably high (35.68), indicating a willingness to play many hands, their PFR is lower than expected (18.33). This suggests they might not be as selective or aggressive as optimal players, leading to less effective hand range management. Their aggression frequency is decent, but the relatively low 3Bet and 4Bet percentages indicate some passivity. Overall, while they show a willingness to engage, their play is not fully optimized, resulting in a 6/10 rating.
+
+2) Overview of Play-Style
+This cluster can be characterized as aggressive-passive players:
+
+Aggressiveness: The PFR/VPIP ratio of 51.94 indicates that when they choose to play, they often raise rather than call. However, their 3Bet and 4Bet percentages are low, suggesting they may be selective with their aggression or hesitant to escalate pots significantly.
+
+Loose and Slightly Passive: The high VPIP indicates a tendency to play many hands, yet the lower Limp percentage (6.59) shows they aren’t overly passive pre-flop. The CBet F of 59.89 suggests they like to take initiative but are not as aggressive post-flop, as evidenced by the relatively high Fold to F CBet (43.85).
+
+Call Willingness: A moderate CC 2Bet PF (23.62) suggests that they are willing to call raises occasionally, indicating some level of comfort in seeing flops but not necessarily committed to strong hands.
+
+3) Exploitation Notes
+Exploiting this Cluster's Play-Style:
+
+Pre-Flop Aggression:
+
+Increase your 3Bet frequency against their early position opens. Given their low 3Bet percentage (9.08), they are likely to fold a significant number of weaker hands when faced with a re-raise.
+Isolate limpers when they choose to limp; they tend to call raises post-flop more often than they should.
+Post-Flop Play:
+
+Utilize Continuation Bets aggressively, as their Fold to F CBet percentage (43.85) indicates a tendency to give up when faced with aggression. If you hit the flop, consider varying your betting sizes to extract value when you have strong hands.
+Watch for their XR Flop (5.54) – it is relatively low, suggesting they may be more inclined to call rather than check-raise. You can apply pressure with bets if they are passive.
+Stealing Blinds:
+
+Since their Fold to Steal percentage is relatively high (45.55), consider increasing your attempts to steal from their blinds, especially if you’re in late position.
+River Decisions:
+
+Given their Call R Eff (1.41), be cautious about bluffing on the river. They may call too frequently without a strong hand, so evaluate if they are capable of folding.
+4) Sea-Creature Representation
+Sea-Creature: Octopus
+
+The octopus symbolizes the players in this cluster due to its combination of adaptability and intelligence. Just as an octopus can change its appearance and behavior to navigate different environments, these players exhibit a mix of aggressive and passive tendencies, adjusting their play based on the situation but often lacking a coherent strategy. The octopus is versatile and opportunistic, which reflects the players' willingness to engage but also their struggle to maintain a consistent game plan.
+

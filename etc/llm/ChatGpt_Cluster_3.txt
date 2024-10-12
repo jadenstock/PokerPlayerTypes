@@ -1,0 +1,57 @@
+Cluster 3
+Number of Players: 117
+Average Stats:
+Hands: 1254.15 (Diff from Overall: 1.46)
+PFR/VPIP: 66.43 (Diff from Overall: 9.73)
+VPIP: 32.28 (Diff from Overall: -1.84)
+PFR: 21.26 (Diff from Overall: 2.68)
+Limp: 2.97 (Diff from Overall: -4.8)
+CC 2Bet PF: 13.33 (Diff from Overall: -6.14)
+Total AFq: 52.14 (Diff from Overall: 6.31)
+3Bet PF: 12.94 (Diff from Overall: 2.46)
+4Bet PF: 7.7 (Diff from Overall: 1.24)
+2Bet PF & Fold: 31.97 (Diff from Overall: 3.63)
+Avg PF All-In Equity: 43.85 (Diff from Overall: -1.26)
+CBet F: 67.83 (Diff from Overall: 4.03)
+Fold to F CBet: 38.26 (Diff from Overall: -5.07)
+XR Flop: 13.17 (Diff from Overall: 5.45)
+Fold to Steal: 48.24 (Diff from Overall: -2.31)
+Att To Steal: 45.94 (Diff from Overall: 6.31)
+Call R Eff: 1.31 (Diff from Overall: -0.15)
+WWSF: 47.08 (Diff from Overall: 4.58)
+BB Won: 156.22 (Diff from Overall: 102.16)
+BB Won/100: 6.6 (Diff from Overall: 7.09)
+
+
+1) Skill Level Rating
+Rating: 7/10
+This cluster demonstrates a decent level of skill. Their PFR/VPIP ratio of 66.43 indicates a balanced approach to aggression and hand selection, while their relatively high aggression frequency (AFq) and 3Bet percentage reflect an active and somewhat aggressive style. However, there are areas for improvement, such as a lower-than-average CC 2Bet PF and a somewhat high Fold to F CBet percentage, suggesting potential passivity in certain situations.
+
+2) Overview of Play Style
+Players in this cluster have a moderately aggressive play style characterized by:
+
+High PFR/VPIP ratio (66.43), indicating they are aggressive and willing to enter pots.
+Loose play with a VPIP of 32.28, which means they are playing a wide range of hands.
+Decent aggression, as shown by their Total AFq of 52.14, suggesting they often take aggressive actions (betting or raising).
+A strong continuation bet strategy (CBet F at 67.83), indicating they frequently bet after being the pre-flop aggressor.
+A tendency to check-raise (XR Flop at 13.17), suggesting they can trap opponents effectively.
+Overall, this cluster shows a balance of aggression and willingness to play a variety of hands, making them somewhat unpredictable.
+
+3) Exploitation Notes
+To exploit players in this cluster effectively, consider the following strategies:
+
+Re-raise Aggressively Against Loose Players: With a high VPIP of 32.28, these players may enter many pots with a wide range of hands. If they limp, raise more often to capitalize on their passive play.
+
+C-Bet More Frequently: Given their Fold to F CBet of 38.26, you can apply pressure with continuation bets on the flop, especially when you perceive weakness. They are likely to fold hands when faced with aggression after they have called.
+
+Be Cautious Against Check-Raises: Their XR Flop percentage of 13.17 indicates they may be setting traps. Respect their check-raises, as they might have stronger hands when they employ this tactic.
+
+Target Their Pre-flop Calls: With a low CC 2Bet PF percentage (13.33), you can raise more frequently pre-flop, especially in position. Players are likely to call with weaker hands, so exploit their tendency to call and push them off the pot post-flop.
+
+Use 3-Bets Wisely: Their 3Bet percentage of 12.94 indicates they can be aggressive pre-flop. Be cautious with weaker hands if they show aggression, and consider using 4-bets selectively to isolate their stronger hands.
+
+Adapt to Their Steal Attempts: With a high Att to Steal percentage of 45.94, these players are likely trying to steal pots from late position. Defend your blinds more effectively and consider re-stealing against their steals.
+
+4) Sea Creature Representation
+Representation: Octopus
+The octopus symbolizes this cluster well due to its intelligence, adaptability, and ability to exhibit both aggressive and passive behaviors. Just like the octopus, players in this cluster can be unpredictable, using a mix of strategies that can catch opponents off guard, making them formidable at the poker table. The octopus also represents a creature capable of rapid movement and flexibility, much like the varied play styles observed in this cluster.

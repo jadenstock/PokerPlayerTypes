@@ -1,0 +1,51 @@
+Cluster 0
+Number of Players: 60
+Average Stats:
+Hands: 1175.25 (Diff from Overall: -77.44)
+PFR/VPIP: 61.64 (Diff from Overall: 4.94)
+VPIP: 45.51 (Diff from Overall: 11.39)
+PFR: 27.94 (Diff from Overall: 9.36)
+Limp: 4.18 (Diff from Overall: -3.59)
+CC 2Bet PF: 24.61 (Diff from Overall: 5.14)
+Total AFq: 47.22 (Diff from Overall: 1.39)
+3Bet PF: 16.45 (Diff from Overall: 5.97)
+4Bet PF: 8.93 (Diff from Overall: 2.47)
+2Bet PF & Fold: 19.75 (Diff from Overall: -8.59)
+Avg PF All-In Equity: 45.46 (Diff from Overall: 0.35)
+CBet F: 64.34 (Diff from Overall: 0.54)
+Fold to F CBet: 40.1 (Diff from Overall: -3.23)
+XR Flop: 7.7 (Diff from Overall: -0.02)
+Fold to Steal: 34.83 (Diff from Overall: -15.72)
+Att To Steal: 55.6 (Diff from Overall: 15.97)
+Call R Eff: 1.48 (Diff from Overall: 0.02)
+WWSF: 43.58 (Diff from Overall: 1.08)
+BB Won: -305.03 (Diff from Overall: -359.09)
+BB Won/100: -39.92 (Diff from Overall: -39.43)
+
+
+1) Skill Level Rating: 8/10
+Players in this cluster show a high level of aggression and are willing to engage in pots frequently. Their VPIP of 45.51 indicates a loose style, while a PFR of 27.94 shows they are selective and aggressive with their raises. This combination of factors suggests a solid understanding of the game, thus a skill level rating of 8 out of 10.
+
+2) Overview of the Cluster's Play Style
+Aggressive and Loose: The players in this cluster are characterized by a high VPIP of 45.51 and a PFR of 27.94, making them loose-aggressive players. They enter a high percentage of hands and are also willing to raise frequently, which can put pressure on opponents.
+Increased Limping: With a Limp percentage of 4.18, players tend to play passively at times, which could suggest that they’re looking to see more flops cheaply before deciding to apply aggression.
+Continuation Betting: The CBet frequency of 64.34 indicates that they frequently follow through on their aggression post-flop, suggesting they have a decent understanding of board texture and how to leverage it.
+Aggressive 3-Betting: A 3Bet percentage of 16.45 reflects their willingness to challenge opponents pre-flop, which can make them formidable adversaries.
+Check-Raising: The XR Flop percentage of 7.7 suggests they may look to trap with strong hands, adding a layer of complexity to their play.
+3) Exploitation Strategies
+Aggressive Pre-Flop Strategy:
+
+3-Bet Light: Since they have a high PFR, players may be more prone to fold against aggressive 3-betting, especially if their PFR/VPIP ratio suggests that they may not be committed to their hands. This can exploit their tendency to raise but fold when faced with further aggression.
+Isolate Limpers: Given their Limp percentage of 4.18, isolating these players with larger raises when they limp can force them to play more straightforwardly.
+Post-Flop Aggression:
+
+Float and Check-Raise: Since they tend to CBet frequently (64.34) but have a Fold to F CBet of 40.1, consider floating their CBet and then check-raising when the board develops favorably for your perceived range.
+Avoid Overcommitting: If they are betting aggressively, be cautious with weaker hands, especially since their high WWSF (43.58) indicates they can win pots after seeing the flop.
+Defend Against Steals:
+
+Stealing Blinds: With a low Fold to Steal percentage of 34.83, consider applying pressure to their blinds with more aggressive stealing attempts when in position, especially from the button or cutoff.
+Exploit Weaknesses in Post-Flop Play:
+
+Capitalize on Their Fold to F CBet: With their Fold to F CBet being relatively high (40.1), you can apply pressure after they check, knowing they may give up if they don't hit the flop hard.
+4) Sea Creature Representation: Mantis Shrimp
+The Mantis Shrimp embodies the cluster's play style with its aggressive and colorful nature. Known for its extraordinary speed and strength, it represents the aggressive and unpredictable tendencies of the players in this cluster. Much like how Mantis Shrimp can swiftly change colors and attack, these players are aggressive in their actions and can be difficult to read, making them formidable opponents at the poker table.

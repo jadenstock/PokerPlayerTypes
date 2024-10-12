@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.DEBUG,  # Set the logging level
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')  # Define the format
 logger = logging.getLogger(__name__)
 
-def generate_clusters(data_path=PN_REPORT_FILE, min_clusters=6, max_clusters=10, random_seed=50):
+def generate_clusters(data_path=PN_REPORT_FILE, min_clusters=5, max_clusters=10, random_seed=56):
     data = clean_and_convert(pd.read_csv(data_path))
     data = fill_na_values(data)
 
