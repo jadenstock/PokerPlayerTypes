@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.DEBUG,  # Set the logging level
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')  # Define the format
 logger = logging.getLogger(__name__)
 
-def generate_clusters(data_path=PN_REPORT_FILE, min_clusters=6, max_clusters=8, random_seed=50):
+def generate_clusters(data_path=PN_REPORT_FILE, min_clusters=6, max_clusters=10, random_seed=50):
     data = clean_and_convert(pd.read_csv(data_path))
     data = fill_na_values(data)
 
@@ -83,8 +83,8 @@ def interpret_clusters(data_path=PN_REPORT_FILE_CLUSTERED):
         f.write("Average stats for each cluster:\n")
         for cluster in ranked_clusters.index:
             f.write(f"\nCluster {cluster}")
-            f.write(f"Number of Players: {players_per_cluster[cluster]}\n")
-            f.write(f"Average Stats:\n")
+            f.write(f"\nNumber of Players: {players_per_cluster[cluster]}")
+            f.write(f"\nAverage Stats:\n")
             cluster_avg_stats = average_stats.loc[cluster]
             for stat, value in cluster_avg_stats.items():
                 diff_value = diff_from_overall.loc[cluster, stat]
@@ -109,7 +109,6 @@ def interpret_clusters(data_path=PN_REPORT_FILE_CLUSTERED):
 
 
 def calculate_feature_importance(data_path=PN_REPORT_FILE_CLUSTERED):
-    logger.debug(f"Attempting to read file at: {data_path}")
     data = pd.read_csv(data_path)
     # Determine feature importance
     anova_results = {}

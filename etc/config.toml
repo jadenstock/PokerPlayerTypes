@@ -5,3 +5,4 @@ pn_report_clustered = "./data/pn_reports/pn_players_report_10_12_24.csv"
 [paths.processed]
 path = "./data/processed_pn_reports/"
 pn_report_clustered = "./data/processed_pn_reports/pn_players_report_clustered_10_12_24.csv"
+color_function_file = "./data/color_function/color_function.txt"

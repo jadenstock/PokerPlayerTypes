@@ -1,39 +1,20 @@
 import pandas as pd
-import os
-import json
-import pandas as pd
 import numpy as np
-from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
-from scipy import stats
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
 
 from utils import load_config
 config = load_config()
-PN_REPORT_FILE_CLUSTERED = config['paths']['pn_report_clustered']
+PN_REPORT_FILE_CLUSTERED = config['paths']['processed']['pn_report_clustered']
+COLOR_CLASSIFICATION_FUNCTION_FILE = config['paths']['processed']['color_function_file']
 
-def generate_function_string():
+def generate_function_string(clustered_data_path=PN_REPORT_FILE_CLUSTERED):
     # Load the clustered players data
-    file_path = "clustered_pn_players_data/clustered_players_report_10_9_24.csv"
-    data = pd.read_csv(file_path)
-
-    # Replace '-' with NaN and clean string columns
-    data = data.replace('-', np.nan)
+    data = pd.read_csv(clustered_data_path)
 
     # Convert relevant columns to numeric, handling commas and other issues
     cols_to_convert = ["PFR/VPIP", "VPIP", "PFR", "Limp", "CC 2Bet PF", "Total AFq", "3Bet PF",
                        "4Bet PF", "CBet F", "Fold to F CBet", "XR Flop", "WWSF",
                        "2Bet PF & Fold", "Fold to Steal", "Att To Steal"]
-    for col in cols_to_convert:
-        if col in data.columns:
-            data[col] = data[col].astype(str).str.replace(',', '').str.replace(' ', '').replace('', np.nan).astype(
-                float)
-
-    # Drop any rows with NaN values
-    data = data.dropna()
 
     # Fit a decision tree to predict the cluster based on the stats
     X = data[cols_to_convert]
@@ -79,6 +60,7 @@ def generate_function_string():
         else:
             clean_str += char
 
+    # Very annoying that PT4 required this.
     var_map = {
         "##PFR#/#VPIP##": '#PFR/VPIP#',
         "Limp": "Preflop Limp",
@@ -93,7 +75,7 @@ def generate_function_string():
     for k, v in var_map.items():
         clean_str = clean_str.replace(k, v)
 
-    with open('clustered_pn_players_data/function_representation.txt', 'w') as f:
+    with open(COLOR_CLASSIFICATION_FUNCTION_FILE, 'w') as f:
         f.write(clean_str)
 
     return clean_str
