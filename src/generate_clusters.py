@@ -6,11 +6,12 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from scipy import stats
-from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 import logging
 
 from utils import load_config, clean_and_convert, fill_na_values
+
+# Load configuration
 config = load_config()
 PN_REPORT_FILE = config['paths']['pn_report']
 PN_REPORT_FILE_CLUSTERED = config['paths']['processed']['pn_report_clustered']
@@ -55,7 +56,6 @@ def generate_clusters(data_path=PN_REPORT_FILE, min_clusters=6, max_clusters=8, 
     data['Cluster'] = best_model.labels_
     data.to_csv(PN_REPORT_FILE_CLUSTERED, index=False)  # Set index=False to avoid writing row indices
 
-
 def interpret_clusters(data_path=PN_REPORT_FILE_CLUSTERED):
     data = pd.read_csv(data_path)
     num_clusters = len(data['Cluster'].unique())
@@ -63,16 +63,13 @@ def interpret_clusters(data_path=PN_REPORT_FILE_CLUSTERED):
     # Calculate the average stats for each cluster
     overall_average = data.drop(columns='Player').mean().round(2)
     average_stats = data.drop(columns='Player').groupby('Cluster').mean().round(2)
-    variance_of_stats = data.drop(columns='Player').groupby('Cluster').var().round(2)
-    diff_from_overall = average_stats - overall_average
+    diff_from_overall = (average_stats - overall_average).round(2)
 
-    # save to csv files
-    average_stats.to_csv(PROCESSED_PATH + "cluster_average_stats.csv", index=True)
-    variance_of_stats.to_csv(PROCESSED_PATH + "cluster_variance_stats.csv", index=False)
-    diff_from_overall.to_csv(PROCESSED_PATH + "cluster_diff_from_overall_average.csv",
-                             index=True)
+    # Save to csv files
+    average_stats.to_csv(os.path.join(PROCESSED_PATH, "cluster_average_stats.csv"), index=True)
+    diff_from_overall.to_csv(os.path.join(PROCESSED_PATH, "cluster_diff_from_overall_average.csv"), index=True)
     overall_average_df = overall_average.to_frame(name='Overall Average').T  # Convert Series to DataFrame
-    overall_average_df.to_csv(PROCESSED_PATH + "overall_average_stats.csv", index=False)
+    overall_average_df.to_csv(os.path.join(PROCESSED_PATH, "overall_average_stats.csv"), index=False)
 
     # Rank clusters by average BB Won/100
     average_bb_won_per_100 = average_stats['BB Won/100']
@@ -81,28 +78,40 @@ def interpret_clusters(data_path=PN_REPORT_FILE_CLUSTERED):
     # Count the number of players in each cluster
     players_per_cluster = data['Cluster'].value_counts().sort_index()
 
-    # Print the full average stats entry by entry for each cluster
-    logger.info("\nAverage stats for each cluster:")
-    for cluster in ranked_clusters.index:
-        logger.info(f"\nCluster {cluster} Average Stats:")
-        cluster_avg_stats = average_stats.loc[cluster]
-        for stat, value in cluster_avg_stats.items():
-            logger.info(f"{stat}: {value}")
+    # Save average stats and differences to a text file
+    with open(PROCESSED_PATH + "average_stats_per_cluster.txt", "w") as f:
+        f.write("Average stats for each cluster:\n")
+        for cluster in ranked_clusters.index:
+            f.write(f"\nCluster {cluster}")
+            f.write(f"Number of Players: {players_per_cluster[cluster]}\n")
+            f.write(f"Average Stats:\n")
+            cluster_avg_stats = average_stats.loc[cluster]
+            for stat, value in cluster_avg_stats.items():
+                diff_value = diff_from_overall.loc[cluster, stat]
+                f.write(f"{stat}: {value} (Diff from Overall: {diff_value})\n")
 
-    print("\nClusters ranked by average BB Won/100:")
-    print(ranked_clusters)
+    logger.info("Average stats and differences written to text file.")
 
-    # Print the number of players per cluster
-    print("\nNumber of players per cluster:")
-    for cluster, count in players_per_cluster.items():
-        print(f"Cluster {cluster}: {count} players")
+    # log ranked clusters and number of players per cluster
+    logger.info("\nClusters ranked by average BB Won/100:")
+    logger.info(f"{ranked_clusters}")
 
     # Create a dictionary of clusters
     cluster_dict = {}
     for cluster in range(num_clusters):
         cluster_dict[cluster] = data[data['Cluster'] == cluster]
 
-    # determine feature importance
+    # Save players in each cluster to a JSON file
+    players_json = {f'Cluster_{cluster}': ','.join([f"'{p}'".lower() for p in set(cluster_dict[cluster]['Player'])]) for
+                    cluster in range(num_clusters)}
+    with open(os.path.join(PROCESSED_PATH, 'players_per_cluster.json'), 'w') as json_file:
+        json.dump(players_json, json_file, indent=4)
+
+
+def calculate_feature_importance(data_path=PN_REPORT_FILE_CLUSTERED):
+    logger.debug(f"Attempting to read file at: {data_path}")
+    data = pd.read_csv(data_path)
+    # Determine feature importance
     anova_results = {}
     df_numeric = data.drop(columns='Player')
     for col in df_numeric.columns:
@@ -129,14 +138,9 @@ def interpret_clusters(data_path=PN_REPORT_FILE_CLUSTERED):
     })
     # Sort by feature importance
     importance_df = importance_df.sort_values(by='Importance', ascending=False)
-    importance_df.to_csv(PROCESSED_PATH+"random_forest_Feature_importance.csv", index=False)
-
-    # Save players in each cluster to a JSON file
-    players_json = {f'Cluster_{cluster}': ','.join([f"'{p}'".lower() for p in set(cluster_dict[cluster]['Player'])]) for
-                    cluster in range(num_clusters)}
-    with open(os.path.join(PROCESSED_PATH, 'players_per_cluster.json'), 'w') as json_file:
-        json.dump(players_json, json_file, indent=4)
+    importance_df.to_csv(PROCESSED_PATH + "random_forest_feature_importance.csv", index=False)
 
 if __name__ == '__main__':
     generate_clusters()
     interpret_clusters()
+    calculate_feature_importance()
