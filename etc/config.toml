@@ -1,0 +1,7 @@
+[paths]
+pn_report = "./data/pn_reports/pn_players_report_10_12_24.csv"
+pn_report_clustered = "./data/pn_reports/pn_players_report_10_12_24.csv"
+
+[paths.processed]
+path = "./data/processed_pn_reports/"
+pn_report_clustered = "./data/processed_pn_reports/pn_players_report_clustered_10_12_24.csv"
