@@ -1,11 +1,11 @@
 I have some poker stats I'd like help analyzing.
-I have gathered some stats on a cluster of players.
+I have gathered some stats on a pool of players.
 I have then organized the players into various clusters.
 I am going to give you the average stats of players within a given cluster.
 I will also include how far off each stat is from the population average.
-I'd like you to do three things.
+I'd like you to do four things.
 1) rate the skill level of players in this cluster out of 10.
-2) Give me an overview of this clusters play-style.
+2) Give me an overview of this cluster's play-style.
 3) Give me detailed notes on the best way to exploit players in this cluster.
 4) Give me a sea-creature that represents this cluster of players.
 

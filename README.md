@@ -85,6 +85,9 @@ This makes their 2Bet PF & Fold, Fold to F Cbet, and Fold to Steal stats quite h
 ### Sardines (Cluster 2)
 
 #### Summary 
+Sardines are the epitome of fish. They play a loose passive style with a VPIP of 52, PFR of only 15, and a staggering limp of 36.
+They cold call pre-flop a lot, 
+
 
 #### Exploits
 
