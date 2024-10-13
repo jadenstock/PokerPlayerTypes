@@ -1,4 +1,5 @@
 import tomllib
+import csv
 import pandas as pd
 import numpy as np
 
@@ -41,9 +42,25 @@ def fill_na_values(df, fill_method="zero"):
     return df
 
 
+def read_csv_and_print_as_markdown(file_path):
+    """
+    Reads a CSV file, converts it to markdown format, and prints it.
+
+    :param file_path: Path to the CSV file.
+    """
+    with open(file_path, newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        # Extract headers and rows
+        headers = next(reader)  # First row as headers
+        rows = [row for row in reader]  # Remaining rows as data
+
+        # Print markdown table to console
+        print("| " + " | ".join(headers) + " |")
+        print("|" + " --- |" * len(headers))
+        for row in rows:
+            print("| " + " | ".join(row) + " |")
+
+
 if __name__=="__main__":
-    config = load_config()
-    PN_REPORT = config['paths']['pn_report']
-    data = pd.read_csv(PN_REPORT)
-    data = clean_and_convert(data)
-    print(data.head(10))
+    file_path = './data/processed_pn_reports/cluster_average_stats.csv'
+    read_csv_and_print_as_markdown(file_path)
