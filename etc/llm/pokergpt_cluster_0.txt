@@ -1,0 +1,42 @@
+Cluster 0
+Number of Players: 60
+Average Stats:
+Hands: 1175.25 (Diff from Overall: -77.44)
+PFR/VPIP: 61.64 (Diff from Overall: 4.94)
+VPIP: 45.51 (Diff from Overall: 11.39)
+PFR: 27.94 (Diff from Overall: 9.36)
+Limp: 4.18 (Diff from Overall: -3.59)
+CC 2Bet PF: 24.61 (Diff from Overall: 5.14)
+Total AFq: 47.22 (Diff from Overall: 1.39)
+3Bet PF: 16.45 (Diff from Overall: 5.97)
+4Bet PF: 8.93 (Diff from Overall: 2.47)
+2Bet PF & Fold: 19.75 (Diff from Overall: -8.59)
+Avg PF All-In Equity: 45.46 (Diff from Overall: 0.35)
+CBet F: 64.34 (Diff from Overall: 0.54)
+Fold to F CBet: 40.1 (Diff from Overall: -3.23)
+XR Flop: 7.7 (Diff from Overall: -0.02)
+Fold to Steal: 34.83 (Diff from Overall: -15.72)
+Att To Steal: 55.6 (Diff from Overall: 15.97)
+Call R Eff: 1.48 (Diff from Overall: 0.02)
+WWSF: 43.58 (Diff from Overall: 1.08)
+BB Won: -305.03 (Diff from Overall: -359.09)
+BB Won/100: -39.92 (Diff from Overall: -39.43)
+
+
+1. Skill Level: 7/10
+This cluster shows a high level of aggression and involvement in pots, indicating they are proficient at applying pressure and playing a wide range of hands. However, their aggression can lead to vulnerabilities that can be exploited by more disciplined players.
+
+2. Overview of Play-Style:
+Aggressive and Loose: With a VPIP of 45.51 and a PFR of 27.94, this cluster is very active and aggressive, playing a wide range of hands and entering pots frequently.
+High 3Bet and 4Bet Frequencies: Their high 3Bet (16.45) and 4Bet (8.93) percentages suggest they are willing to re-raise aggressively, often challenging their opponents pre-flop.
+Steal Opportunities: They attempt to steal blinds frequently (Att To Steal: 55.6), showcasing an aggressive strategy to pick up uncontested pots.
+Moderate CBet Frequency: With a CBet F of 64.34, they often follow up their pre-flop aggression on the flop.
+Opportunistic: Their WWSF of 43.58 indicates they manage to win a decent number of pots after seeing the flop, reinforcing their aggressive post-flop play.
+3. Exploitation Strategies:
+Pressure their Wide Range: Their high VPIP and 2Bet PF & Fold percentage (19.75) suggest they enter pots with a wide range. Apply pressure with 3-bets and aggressive post-flop play to capitalize on their weaker holdings.
+Defend Against Steals: With a Fold to Steal percentage of 34.83, they are less likely to fold to steal attempts. When they attempt to steal, consider defending with a wider range or 3-betting light.
+Target Limpers: Although their limp percentage is relatively low (4.18), when they do limp, raise more often to isolate and play against their weaker range.
+Exploit High Aggression: Use their aggression against them by trapping with strong hands. Their high Total AFq (47.22) and XR Flop (7.7) suggest they are prone to aggressive plays, which can be countered by calling down with strong hands.
+Floating and Delayed Bluffs: Given their tendency to CBet frequently, consider floating the flop with a wider range and bluffing on later streets if they show weakness.
+4. Sea-Creature Representation: Barracuda
+This cluster can be likened to a barracuda: aggressive, fast, and willing to attack a wide range of prey. They are opportunistic and can be formidable, but their predictability and over-aggression can be exploited by savvy players.

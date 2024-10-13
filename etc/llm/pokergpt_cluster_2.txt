@@ -1,0 +1,41 @@
+Cluster 2
+Number of Players: 38
+Average Stats:
+Hands: 716.66 (Diff from Overall: -536.03)
+PFR/VPIP: 28.56 (Diff from Overall: -28.14)
+VPIP: 52.33 (Diff from Overall: 18.21)
+PFR: 15.1 (Diff from Overall: -3.48)
+Limp: 36.14 (Diff from Overall: 28.37)
+CC 2Bet PF: 40.59 (Diff from Overall: 21.12)
+Total AFq: 43.18 (Diff from Overall: -2.65)
+3Bet PF: 7.8 (Diff from Overall: -2.68)
+4Bet PF: 4.25 (Diff from Overall: -2.21)
+2Bet PF & Fold: 23.69 (Diff from Overall: -4.65)
+Avg PF All-In Equity: 43.04 (Diff from Overall: -2.07)
+CBet F: 56.21 (Diff from Overall: -7.59)
+Fold to F CBet: 44.75 (Diff from Overall: 1.42)
+XR Flop: 4.84 (Diff from Overall: -2.88)
+Fold to Steal: 37.21 (Diff from Overall: -13.34)
+Att To Steal: 26.91 (Diff from Overall: -12.72)
+Call R Eff: 1.18 (Diff from Overall: -0.28)
+WWSF: 40.73 (Diff from Overall: -1.77)
+BB Won: -167.92 (Diff from Overall: -221.98)
+BB Won/100: -17.18 (Diff from Overall: -16.69)
+
+1. Skill Level: 3/10
+This cluster appears to struggle with fundamental concepts of poker strategy, as evidenced by their poor win rates and exploitable tendencies. Their play style suggests a lack of discipline and strategic planning.
+
+2. Overview of Play-Style:
+Loose-Passive: With a high VPIP of 52.33 and a low PFR/VPIP ratio of 28.56, this cluster tends to play many hands but lacks aggression. They are likely to call more often than raise, leading to a passive playstyle.
+High Limping Frequency: A Limp percentage of 36.14 indicates a propensity to enter pots passively, which can be easily exploited by more aggressive opponents.
+Weak Pre-Flop Aggression: With a PFR of only 15.1 and low 3Bet (7.8) and 4Bet (4.25) percentages, they are not aggressive pre-flop, often missing opportunities to apply pressure.
+Defensive Posture: Their Fold to Steal percentage of 37.21 suggests they are more likely to defend their blinds, but their overall passivity makes them vulnerable to aggressive opponents.
+Low CBet Frequency: A CBet F of 56.21 indicates they seldom follow through with aggression post-flop, which can be seen as a sign of weakness.
+3. Exploitation Strategies:
+Aggressively Isolate Limpers: Given their high tendency to limp, raise frequently to isolate them and capitalize on their weaker range.
+Apply Pressure with 3-Bets: With low resistance to aggression, increase your 3-bet frequency against their opens to exploit their tendency to fold post-flop.
+Probe and Bluff on Later Streets: Their low aggression frequency (Total AFq: 43.18) and moderate Fold to F CBet percentage (44.75) make them susceptible to delayed aggression, allowing for profitable bluffing opportunities.
+Target Their Blind Defense: Their low Fold to Steal percentage suggests they defend their blinds. Attack their blinds with a wider range and prepare to apply post-flop pressure.
+Respect Their Calls on the River: Their Call R Eff of 1.18 indicates they are not making profitable river calls. Use this to your advantage by bluffing less frequently on the river.
+4. Sea-Creature Representation: Jellyfish
+This cluster can be compared to jellyfish: they drift through the game with little direction or purpose, reacting passively to their surroundings. While they can occasionally sting, they are generally easy to navigate around and exploit for experienced players.

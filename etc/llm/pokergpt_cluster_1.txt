@@ -1,0 +1,41 @@
+Cluster 1
+Number of Players: 141
+Average Stats:
+Hands: 1454.89 (Diff from Overall: 202.2)
+PFR/VPIP: 67.08 (Diff from Overall: 10.38)
+VPIP: 24.84 (Diff from Overall: -9.28)
+PFR: 16.46 (Diff from Overall: -2.12)
+Limp: 2.26 (Diff from Overall: -5.51)
+CC 2Bet PF: 10.97 (Diff from Overall: -8.5)
+Total AFq: 47.12 (Diff from Overall: 1.29)
+3Bet PF: 9.53 (Diff from Overall: -0.95)
+4Bet PF: 6.57 (Diff from Overall: 0.11)
+2Bet PF & Fold: 38.04 (Diff from Overall: 9.7)
+Avg PF All-In Equity: 45.39 (Diff from Overall: 0.28)
+CBet F: 64.24 (Diff from Overall: 0.44)
+Fold to F CBet: 46.18 (Diff from Overall: 2.85)
+XR Flop: 6.76 (Diff from Overall: -0.96)
+Fold to Steal: 64.66 (Diff from Overall: 14.11)
+Att To Steal: 37.1 (Diff from Overall: -2.53)
+Call R Eff: 1.69 (Diff from Overall: 0.23)
+WWSF: 42.99 (Diff from Overall: 0.49)
+BB Won: 201.02 (Diff from Overall: 146.96)
+BB Won/100: 13.16 (Diff from Overall: 13.65)
+
+1. Skill Level: 8/10
+This cluster demonstrates a strong understanding of poker fundamentals with disciplined aggression and selective hand selection. Their stats indicate a solid grasp of strategic play, making them relatively skilled players.
+
+2. Overview of Play-Style:
+Tight-Aggressive (TAG): With a VPIP of 24.84 and PFR of 16.46, this cluster plays a tighter range of hands but does so aggressively. This style is typical of strong players who are selective yet assertive.
+High PFR/VPIP Ratio: A PFR/VPIP ratio of 67.08 suggests a high level of aggression relative to the hands they choose to play, indicating they prefer raising over limping.
+Defensive Against Steals: With a Fold to Steal percentage of 64.66, they are likely defending their blinds effectively and not easily giving up on potential opportunities.
+Moderate CBet Frequency: A CBet F of 64.24 shows they follow up their pre-flop aggression with continuation bets, often maintaining pressure on opponents.
+Disciplined River Play: Their Call R Eff of 1.69 indicates they are making profitable calls on the river, likely due to strong hand reading skills.
+3. Exploitation Strategies:
+Apply Pressure Post-Flop: Though they are aggressive pre-flop, their Fold to F CBet percentage of 46.18 suggests they can be pressured post-flop. Consider applying aggression on the turn and river if they show weakness.
+Challenge Their Steals: With a relatively low Att To Steal of 37.1, they may not be stealing as frequently. However, when they do, they might have a stronger range. Be prepared to challenge their steals with solid hands.
+Exploit High Fold to 2Bet PF: Their 2Bet PF & Fold percentage of 38.04 suggests they can be pressured with 3-bets pre-flop, particularly when they open from late positions.
+Target Their Limping Range: Although they limp infrequently (Limp: 2.26), when they do, it's an opportunity to raise and isolate against a potentially weaker range.
+Respect 3Bet and 4Bet Aggression: Given their moderate 3Bet (9.53) and 4Bet (6.57) frequencies, be cautious when facing aggression, as they might have a stronger range.
+4. Sea-Creature Representation: Dolphin
+This cluster can be compared to dolphins: intelligent, strategic, and able to navigate the poker waters with skill and precision. They are not overly aggressive but can be formidable opponents when they choose to act.

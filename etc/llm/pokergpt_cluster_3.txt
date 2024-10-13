@@ -1,0 +1,40 @@
+Cluster 3
+Number of Players: 117
+Average Stats:
+Hands: 1254.15 (Diff from Overall: 1.46)
+PFR/VPIP: 66.43 (Diff from Overall: 9.73)
+VPIP: 32.28 (Diff from Overall: -1.84)
+PFR: 21.26 (Diff from Overall: 2.68)
+Limp: 2.97 (Diff from Overall: -4.8)
+CC 2Bet PF: 13.33 (Diff from Overall: -6.14)
+Total AFq: 52.14 (Diff from Overall: 6.31)
+3Bet PF: 12.94 (Diff from Overall: 2.46)
+4Bet PF: 7.7 (Diff from Overall: 1.24)
+2Bet PF & Fold: 31.97 (Diff from Overall: 3.63)
+Avg PF All-In Equity: 43.85 (Diff from Overall: -1.26)
+CBet F: 67.83 (Diff from Overall: 4.03)
+Fold to F CBet: 38.26 (Diff from Overall: -5.07)
+XR Flop: 13.17 (Diff from Overall: 5.45)
+Fold to Steal: 48.24 (Diff from Overall: -2.31)
+Att To Steal: 45.94 (Diff from Overall: 6.31)
+Call R Eff: 1.31 (Diff from Overall: -0.15)
+WWSF: 47.08 (Diff from Overall: 4.58)
+BB Won: 156.22 (Diff from Overall: 102.16)
+BB Won/100: 6.6 (Diff from Overall: 7.09)
+
+1. Skill Level: 8/10
+This cluster displays a solid understanding of aggressive poker strategy, with a balanced approach between aggression and hand selection. They tend to perform well in various scenarios due to their strategic aggression.
+
+2. Overview of Play-Style:
+Aggressive and Selective: With a VPIP of 32.28 and PFR of 21.26, these players engage in a fair amount of hands but do so with a strong focus on aggression, as indicated by their high PFR/VPIP ratio of 66.43.
+High Aggression Frequency: Their Total AFq of 52.14 and high CBet F percentage (67.83) suggest they are aggressive in both pre-flop and post-flop play, often pressuring opponents into making mistakes.
+Strong Post-Flop Play: Their high XR Flop percentage (13.17) indicates a tendency to check-raise frequently, making them dangerous and unpredictable post-flop.
+Efficient Blind Stealing: They attempt to steal blinds often (Att To Steal: 45.94), reflecting a strategic approach to picking up uncontested pots and maintaining aggression.
+3. Exploitation Strategies:
+Counter Their Aggression: With a high aggression frequency, be prepared to call down with stronger hands and trap them when they overplay their aggression.
+Exploit Their Fold to CBet: Their Fold to F CBet percentage is relatively low (38.26), suggesting they may continue with a wider range post-flop. Use this to your advantage by applying continued pressure on later streets.
+Target Their Light 3-Bets: They have a relatively high 3Bet PF (12.94), indicating they might be 3-betting light. Consider 4-betting or calling with strong hands to exploit this tendency.
+Defend Against Blinds Aggressively: They fold to steals less frequently, so be prepared to challenge their blind defense with strong hands and pressure them post-flop.
+Be Cautious of Check-Raises: With a high XR Flop percentage, be cautious when they check on the flop, as they may be setting up a check-raise with a strong hand.
+4. Sea-Creature Representation: Shark
+This cluster can be likened to sharks: aggressive, strategic, and dangerous. They know how to apply pressure and exploit weaknesses in their opponents, making them formidable adversaries at the table.

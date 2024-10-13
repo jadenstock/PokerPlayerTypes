@@ -1,0 +1,40 @@
+Cluster 5
+Number of Players: 112
+Average Stats:
+Hands: 1194.81 (Diff from Overall: -57.88)
+PFR/VPIP: 51.94 (Diff from Overall: -4.76)
+VPIP: 35.68 (Diff from Overall: 1.56)
+PFR: 18.33 (Diff from Overall: -0.25)
+Limp: 6.59 (Diff from Overall: -1.18)
+CC 2Bet PF: 23.62 (Diff from Overall: 4.15)
+Total AFq: 40.8 (Diff from Overall: -5.03)
+3Bet PF: 9.08 (Diff from Overall: -1.4)
+4Bet PF: 5.43 (Diff from Overall: -1.03)
+2Bet PF & Fold: 21.56 (Diff from Overall: -6.78)
+Avg PF All-In Equity: 46.2 (Diff from Overall: 1.09)
+CBet F: 59.89 (Diff from Overall: -3.91)
+Fold to F CBet: 43.85 (Diff from Overall: 0.52)
+XR Flop: 5.54 (Diff from Overall: -2.18)
+Fold to Steal: 45.55 (Diff from Overall: -5.0)
+Att To Steal: 40.23 (Diff from Overall: 0.6)
+Call R Eff: 1.41 (Diff from Overall: -0.05)
+WWSF: 39.31 (Diff from Overall: -3.19)
+BB Won: 52.61 (Diff from Overall: -1.45)
+BB Won/100: 0.3 (Diff from Overall: 0.79)
+
+1. Skill Level: 5/10
+This cluster demonstrates a moderate understanding of poker strategy, with some aggressive tendencies but also passive elements. They show potential but have exploitable weaknesses that prevent them from being more effective.
+
+2. Overview of Play-Style:
+Moderately Aggressive and Loose: With a VPIP of 35.68 and a PFR of 18.33, these players are somewhat active but not overly aggressive. Their PFR/VPIP ratio of 51.94 suggests a balanced approach between aggression and passivity.
+Moderate Limping: A Limp percentage of 6.59 indicates they occasionally enter pots passively, which can be exploited by more aggressive opponents.
+Average Aggression Frequency: Their Total AFq of 40.8 suggests they are not overly aggressive, often missing opportunities to apply pressure.
+Decent Blind Stealing: An Att To Steal percentage of 40.23 indicates they attempt to steal blinds with some frequency, reflecting a basic understanding of aggressive strategies.
+3. Exploitation Strategies:
+Pressure Their Passive Plays: With a relatively low aggression frequency and average Fold to F CBet percentage (43.85), apply pressure on the flop and turn to exploit their tendency to give up on marginal hands.
+Capitalize on Limping: Their occasional limping can be exploited by raising with a wider range to isolate them and capitalize on their weaker starting hands.
+Challenge Their CBet: They have a moderate CBet F of 59.89, so consider floating more often and applying pressure on later streets if they show weakness.
+Defend Against Blind Steals: Their Fold to Steal percentage (45.55) suggests they might be vulnerable to aggressive defense of blinds, so be prepared to re-raise or call steals with a strong range.
+Be Wary of River Calls: Their Call R Eff of 1.41 indicates they make somewhat profitable river calls, so be cautious when bluffing on the river.
+4. Sea-Creature Representation: Crab
+This cluster can be compared to crabs: they have a balanced approach, moving sideways with caution but capable of snapping back when provoked. While not overly aggressive, they can be tricky to deal with if not approached carefully.

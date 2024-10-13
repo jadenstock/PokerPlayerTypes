@@ -1,0 +1,39 @@
+Cluster 4
+Number of Players: 46
+Average Stats:
+Hands: 1313.96 (Diff from Overall: 61.27)
+PFR/VPIP: 28.53 (Diff from Overall: -28.17)
+VPIP: 33.56 (Diff from Overall: -0.56)
+PFR: 9.52 (Diff from Overall: -9.06)
+Limp: 21.04 (Diff from Overall: 13.27)
+CC 2Bet PF: 26.9 (Diff from Overall: 7.43)
+Total AFq: 38.44 (Diff from Overall: -7.39)
+3Bet PF: 4.97 (Diff from Overall: -5.51)
+4Bet PF: 4.09 (Diff from Overall: -2.37)
+2Bet PF & Fold: 20.88 (Diff from Overall: -7.46)
+Avg PF All-In Equity: 46.09 (Diff from Overall: 0.98)
+CBet F: 67.27 (Diff from Overall: 3.47)
+Fold to F CBet: 49.25 (Diff from Overall: 5.92)
+XR Flop: 4.45 (Diff from Overall: -3.27)
+Fold to Steal: 56.9 (Diff from Overall: 6.35)
+Att To Steal: 19.53 (Diff from Overall: -20.1)
+Call R Eff: 1.5 (Diff from Overall: 0.04)
+WWSF: 37.19 (Diff from Overall: -5.31)
+BB Won: -0.94 (Diff from Overall: -55.0)
+BB Won/100: 2.96 (Diff from Overall: 3.45)
+
+1. Skill Level: 4/10
+This cluster appears to consist of players who are somewhat passive and may lack a strategic approach to the game. Their stats indicate a tendency to play too many hands passively, which can lead to easily exploitable weaknesses.
+
+2. Overview of Play-Style:
+Loose-Passive: With a VPIP of 33.56 and a low PFR of 9.52, these players are involved in many hands but do not apply much aggression. Their PFR/VPIP ratio of 28.53 suggests they often enter pots without raising.
+High Limping Frequency: A Limp percentage of 21.04 indicates they frequently enter pots by limping, a sign of passivity that can be exploited.
+Low Aggression Frequency: Their Total AFq of 38.44 shows they rarely take aggressive actions, preferring a more passive approach throughout the hand.
+Defensive Posture: They fold to steals more often than average, as indicated by a Fold to Steal percentage of 56.9, which can be exploited by aggressive opponents.
+3. Exploitation Strategies:
+Aggressively Raise Limpers: Their high tendency to limp makes them vulnerable to aggressive raises. Isolate them by raising their limps with a wide range of hands.
+Pressure Post-Flop: With a low aggression frequency and a high Fold to F CBet percentage (49.25), apply pressure on the flop and turn to take advantage of their reluctance to continue without strong hands.
+Exploit Their Passivity: Attack their blinds with a wider range, as they are likely to fold or play passively post-flop. Their low Att To Steal percentage (19.53) indicates they are not aggressive in stealing blinds themselves.
+Be Wary on the River: Their Call R Eff of 1.5 suggests they are making profitable river calls, so exercise caution when bluffing on the river.
+4. Sea-Creature Representation: Sea Anemone
+This cluster can be compared to sea anemones: stationary and passive, waiting for the action to come to them. While they can occasionally catch a prey, they are generally easy to navigate around and exploit for more active players.
