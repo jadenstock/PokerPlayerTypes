@@ -1,16 +1,20 @@
+## Description
 
 ## Env Set-up
-
 run command `.\venv\Scripts\activate` to setup venv. Run `uv sync` to sync dependencies.
 
 ## Getting input Data
 
+First you will need poker logs in Poker Track 4.
+This program works best is you have a decent number of hands on a small pool of players.
+If you play on pokernow you can use a converter software like [PokerNowLogConverter](https://github.com/charlestudor/PokerNowLogConverter)
+which will convert the logs to pokerstars format. Once you have some logs you will need to set up a players report.
+I have included the player report that I use under `./etc/pn_player_report.pt4rp`. You can download this and import it to PT4.
 
-## Running the commands
+## Generating Clusters
 
-```invoke alias```
-Generates a list of player aliases which are possibly the same player.
-It uses a combination of string similarity as well was stats closeness. 
+Once you have collected sufficient logs, if you want to generate your own clusters you must first export your report data and
+point to it's path in `./etc/config.toml`. Then you can run the following commands:
 
 ```invoke cluster```
 Main function(s) for generating player clusters. Stores the clusters info in csv files.
@@ -19,7 +23,19 @@ Main function(s) for generating player clusters. Stores the clusters info in csv
 Runs a decision tree classifier on the player clusters and converts that into a function string
 to be used by PT4 for coloring a player report. 
 
+You can play around with the min and max number of clusters and inspect the output files generated until you are happy with the clusters.
+Then by running the color-function command you generate a decision tree classification function which colors each cluster with a given rgb code.
+this function string can then be used by PT4 to color each row of your report, allowing you to see each cluster.
+
+## Using Clusters
+
+Once you have the coloring function you can go back to your PT4 report and click on Advanced and then add the color function string to the Row Color Expression field. 
+
+Note: You can simply use the report and the clusters function I have provided under `./data/color_function`. In this case there are 6 clusters which are described below. 
+
 ## Clusters
+
+Note: the cluster names given below were given by me. The analysis given is a combination of responses from ChatGPT, pokerGpt, and my intuition. 
 
 | Cluster | Cluster Name   | PFR/VPIP | VPIP | PFR | Limp | CC 2Bet PF | Total AFq | 3Bet PF | 4Bet PF | 2Bet PF & Fold | Avg PF All-In Equity | CBet F | Fold to F CBet | XR Flop | Fold to Steal | Att To Steal | Call R Eff | WWSF | BB Won/100 |
 | --- |----------------| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,12 +47,19 @@ to be used by PT4 for coloring a player report.
 | 0 | Mantish Shrimp | 61.64 | 45.51 | 27.94 | 4.18 | 24.61 | 47.22 | 16.45 | 8.93 | 19.75 | 45.46 | 64.34 | 40.1 | 7.7 | 34.83 | 55.6 | 1.48 | 43.58 | -39.92 |
 
 
-### Dolphin (Cluster 1)
+### Orca (Cluster 1)
 
 #### Summary 
+Orcas are classic TAG players. They play a tight range and they usually prefer aggressive actions to passive ones.
+They have the highest PFR/VPIP (67.08), lowest limp (2.26), lowest CC 2B PF (10.97).
+They also have highest River Call Efficiency (while not being too high), making them formidible opponents throughout the hand. 
+
+When faced with aggression they tend to not like calling. Instead, they fold or bring more aggression back. 
+This makes their 2Bet PF & Fold, Fold to F Cbet, and Fold to Steal stats quite high.
 
 #### Exploits
-
+- Apply pressure post-flop.
+- 3 bet wider.
 
 ### Shark (Cluster 3)
 
@@ -69,8 +92,13 @@ to be used by PT4 for coloring a player report.
 ### Mantis Shrimp (Cluster 0)
 
 #### Summary 
+The Mantish Shrimp are classic LAG players. They have the highest PFR of 27.94 on average and a very high VPIP of 45.51 (only behind the Sardines). 
+They also are characterized by having the highest attempt to steal (55.6) and lowest fold to steal (34.38).
 
 #### Exploits
+- 3 bet light to exploit their high PFR
+- Apply pressure to their blinds given they are less likely to fold. Raise their attempts to steal give how aggressive they are. 
+- float and XR to take advantage of their post-flop aggression
+- be more trappy
 
-## Using the clusters
 
