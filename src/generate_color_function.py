@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 
 from utils import load_config
@@ -82,21 +81,30 @@ def generate_function_string(clustered_data_path=PN_REPORT_FILE_CLUSTERED):
 
 
 if __name__ == '__main__':
-    colors = {
-        0: "255,100,100",  # second most red
-        1: "255,0,0",  # most red
-        2: "200,255,100",  # muted green with a hint of yellow
-        3: "100,255,100",  # light green
-        4: "0,200,0"  # most green
-    }
+    #colors = {
+    #    0: "255,100,100",  # second most red
+    #    1: "255,0,0",  # most red
+    #    2: "200,255,100",  # muted green with a hint of yellow
+    #    3: "100,255,100",  # light green
+    #    4: "0,200,0"  # most green
+    #}
+
+    #colors = {
+    #    1: "139,0,0",
+    #    3: "255,0,0",
+    #    4: "255,165,000",
+    #    5: "255,255,0",
+    #    2: "144,238,144",
+    #    0: "0,200,0"
+    #}
 
     colors = {
-        5: "139,0,0",
-        0: "255,0,0",
-        4: "255,165,000",
-        2: "255,255,0",
-        1: "144,238,144",
-        3: "0,200,0"
+        0: "153,50,204",  # Lighter purple
+        1: "165,42,42",  # Slightly lighter dark red
+        2: "0,128,0",  # Most green
+        3: "255,102,102",  # Lighter shade of red
+        4: "144,238,144",  # Lighter green
+        5: "255,255,0"  # Yellow
     }
 
     result = generate_function_string()
