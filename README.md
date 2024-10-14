@@ -64,6 +64,11 @@ This makes their 2Bet PF & Fold, Fold to F Cbet, and Fold to Steal stats quite h
 ### Shark (Cluster 3)
 
 #### Summary 
+Sharks are generally strong players. They play slightly wider than Orcas (the highest earning cluster) but not as wide as the other aggressive cluster, the Mantis Shrimp.
+Sharks have very similar PFR/VPIP to Orcas but 4 points higher on both PFR and VPIP. They have the highest AFq of all of the clusters.
+They fold to 3bets preflop less than orcas (probably because they are more liekly to call).
+They have highest cbet flop and highest XR flop (by far), showing a lot of post-flop aggression. This leads to them having the highest WWSF stat.
+Their main problem is being perhaps slightly too wide pre-flop. 
 
 #### Exploits
 
@@ -71,6 +76,8 @@ This makes their 2Bet PF & Fold, Fold to F Cbet, and Fold to Steal stats quite h
 ### Jellyfish (Cluster 4)
 
 #### Summary 
+Jellyfish are almost as fishy as the Sardines. They show very similar levels of aggression (or rather, passivity), but they play fewer hands in general. 
+
 
 #### Exploits
 
@@ -78,16 +85,17 @@ This makes their 2Bet PF & Fold, Fold to F Cbet, and Fold to Steal stats quite h
 ### Crab (Cluster 5)
 
 #### Summary 
+Crabs aren't bad players, but they aren't good players either. They aren't as aggressive and dialed in as the Orcas and Sharks but not as fishy as the Sardines and Jellyfish.
+They 7% limp shows that they can lack discipline pre-flop. Their low WWSF also shows that they aren't battling post-flop enough either. 
 
 #### Exploits
-
 
 ### Sardines (Cluster 2)
 
 #### Summary 
 Sardines are the epitome of fish. They play a loose passive style with a VPIP of 52, PFR of only 15, and a staggering limp of 36.
-They cold call pre-flop a lot, 
-
+They cold call pre-flop a lot, they have the lowest average preflop all in-equity (suggesting they get in bad).
+They also have the lowest flop c-bet and very low flop XR as well. In general, they are the most passive cluster.
 
 #### Exploits
 
