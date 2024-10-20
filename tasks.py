@@ -14,3 +14,8 @@ def aliases(c):
 def color_function(c):
     """Install dependencies."""
     c.run("python3 src/generate_color_function.py")
+
+@task
+def feature_importance(c):
+    """Install dependencies."""
+    c.run("python3 src/feature_importance.py")
