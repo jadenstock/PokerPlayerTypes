@@ -33,74 +33,55 @@ def perturb_vpip_pfr(vpip_value, pfr_value, noise_level=0.1):
     return perturbed_vpip, perturbed_pfr, perturbed_prf_over_pip
 
 
-# Updated function to handle recalculation of derived stats
-def analyze_player_importance(player_name, tree, data, cols_to_convert, noise_level=0.1, num_perturbations=1000):
-    """
-    Analyze the importance of each stat for a player by perturbing each stat and
-    observing how the player's predicted cluster changes.
-
-    Args:
-    - player_name: Name of the player (row) to analyze.
-    - tree: Trained decision tree model.
-    - data: Full dataframe of player stats.
-    - cols_to_convert: List of stat column names.
-    - noise_level: How much noise to apply to each stat (default 10%).
-    - num_perturbations: How many times to perturb each stat and run the classifier.
-
-    Returns:
-    - importance_dict: Dictionary of how many times each stat caused a cluster change.
-    - robustness: Percentage of times the cluster stayed the same across all perturbations.
-    - cluster_distribution: A dictionary with the count of each cluster.
-    """
+def analyze_player_importance(
+        player_name,
+        tree,
+        data,
+        cols_to_convert,
+        noise_level=0.1,
+        num_perturbations=1000):
     # Locate the row for the specified player
     player_row = data[data['Player'] == player_name].iloc[0][cols_to_convert].values
-    initial_cluster = run_decision_tree(tree, player_row) # Predict the initial cluster
-    importance_dict = {col: 0 for col in cols_to_convert} # Dictionary to store how often each stat causes a cluster change
-    cluster_distribution = {} # Track the number of occurrences for each cluster
-    same_cluster_count = 0 # Count the number of times the cluster stays the same (robustness measure)
+    initial_cluster = run_decision_tree(tree, player_row)
+    importance_dict = {col: 0 for col in cols_to_convert}
+    cluster_distribution = {}
+    same_cluster_count = 0
 
-    # Loop through each stat and perturb it
-    for _ in range(num_perturbations):
-        perturbed_row = player_row.copy()
+    # Loop through each stat individually
+    for stat_index, stat_name in enumerate(cols_to_convert):
+        for _ in range(num_perturbations):
+            perturbed_row = player_row.copy()
 
-        for stat_index, stat_name in enumerate(cols_to_convert):
-            # Handle VPIP/PFR together and recalculate VPIP/PFR after perturbation
+            # Skip specific stats from perturbation
+            if stat_name in ['PFR', 'VPIP', 'WWSF', 'Total AFq']:
+                continue
+
             if stat_name == 'PFR/VPIP':
                 vpip_index = cols_to_convert.index('VPIP')
                 pfr_index = cols_to_convert.index('PFR')
-                pfr_to_vpip_index = cols_to_convert.index('PFR/VPIP')
+                perturbed_vpip, perturbed_pfr, _ = perturb_vpip_pfr(
+                    player_row[vpip_index], player_row[pfr_index], noise_level=noise_level)
 
-                # Perturb both VPIP and PFR
-                perturbed_vpip, perturbed_pfr, perturbed_pfr_to_vpip = perturb_vpip_pfr(player_row[vpip_index], player_row[pfr_index],
-                                                                 noise_level=noise_level)
-
-                # Update perturbed row with new VPIP and PFR values
                 perturbed_row[vpip_index] = perturbed_vpip
                 perturbed_row[pfr_index] = perturbed_pfr
-                perturbed_row[pfr_to_vpip_index] = perturbed_pfr_to_vpip
-            elif stat_name in ['PFR', 'VPIP', 'WWSF', 'Total AFq', 'Att To Steal']:
-                continue
             else:
-                # Perturb individual stat
-                perturbed_row[stat_index] = perturb_stat(perturbed_row[stat_index], noise_level=noise_level)
+                perturbed_row[stat_index] = perturb_stat(
+                    perturbed_row[stat_index], noise_level=noise_level)
 
-        # Predict the cluster with the perturbed row
-        perturbed_cluster = run_decision_tree(tree, perturbed_row)
+            # Predict the cluster with the perturbed row
+            perturbed_cluster = run_decision_tree(tree, perturbed_row)
 
-        # Log which cluster comes up
-        if perturbed_cluster in cluster_distribution:
-            cluster_distribution[perturbed_cluster] += 1
-        else:
-            cluster_distribution[perturbed_cluster] = 1
+            if perturbed_cluster in cluster_distribution:
+                cluster_distribution[perturbed_cluster] += 1
+            else:
+                cluster_distribution[perturbed_cluster] = 1
 
-        # Check if the cluster has changed
-        if perturbed_cluster != initial_cluster:
-            importance_dict[stat_name] += 1
-        else:
-            same_cluster_count += 1
+            if perturbed_cluster != initial_cluster:
+                importance_dict[stat_name] += 1
+            else:
+                same_cluster_count += 1
 
-    # Calculate robustness (percentage of times the cluster remained the same)
-    robustness = same_cluster_count / (len(cols_to_convert) * num_perturbations)
+    robustness = same_cluster_count / ((len(cols_to_convert)-4) * num_perturbations)
 
     return importance_dict, robustness, cluster_distribution
 
@@ -120,15 +101,15 @@ def run_feature_importance_for_player(player_name):
 
     # Log the cluster distribution
     total_perturbations = sum(cluster_distribution.values())
-    logger.info(f"Cluster distribution after perturbations:")
+    logger.info("\nCluster distribution after perturbations:")
     for cluster, count in cluster_distribution.items():
         percentage = (count / total_perturbations) * 100
         logger.info(f"Cluster {cluster}: {percentage:.2f}%")
 
-    logger.info(f"Stat Level importance:")
+    logger.info("\nStat Level importance:")
     for stat, count in importance_dict.items():
         logger.info(f"{stat}: {count} cluster changes")
 
 
 if __name__ == '__main__':
-    run_feature_importance_for_player("alexr")
+    run_feature_importance_for_player("Jeremy")
